@@ -2,5 +2,6 @@
 #include "hello_Ariel.h"
 
 int main(){
-    print();
+    my_print();
+    return 0;
 }

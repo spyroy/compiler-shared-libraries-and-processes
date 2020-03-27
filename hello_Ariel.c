@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "hello_Ariel.c"
+#include "hello_Ariel.h"
 
-void print(){
+void my_print(){
     printf("hello Ariel");
 }

@@ -1,4 +1,4 @@
 #pragma once
 #include <stdio.h>
 
-void print();
+void my_print();
