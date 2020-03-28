@@ -2,5 +2,5 @@
 #include "hello_Ariel.h"
 
 void my_print(){
-    printf("hello Ariel");
+    printf("hello Ariel\n");
 }
