@@ -27,7 +27,7 @@ main2_2: main2_2.c
 	$(CC) $(FLAGS) main2_2.c -o main2_2
 
 main2_3: main2_3.c
-	$(CC) $(FLAGS) main2_3.c .txt -o main2_3
+	$(CC) $(FLAGS) main2_3.c -o main2_3
 
 main2_4: main2_4.c
 	$(CC) $(FLAGS) main2_4.c -o main2_4	
