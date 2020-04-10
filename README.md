@@ -71,6 +71,10 @@ output on terminal when typing pstree grep myDaemon /var/log/syslog in main2_3 i
 	'date and computer name' myDaemon[8927]: First daemon finished and terminated.
 
 output on terminal in main2_4 is all the programs above including process tree at the end.
+![image](https://github.com/spyroy/OS_task1/blob/master/photos/Screenshot%20from%202020-04-10%2016-28-16.png)
+![image](https://github.com/spyroy/OS_task1/blob/master/photos/Screenshot%20from%202020-04-10%2016-30-33.png)
 
 OS_task1
 operating system assignment
+
+
