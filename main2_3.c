@@ -8,10 +8,10 @@
 
 
 /*
-    output on terminal when typing pstree grep myDaemon /var/log/syslog is:
-    'date and computer name' myDaemon[8927]: First daemon started.
-    'date and computer name' myDaemon[8927]: First daemon is working.
-    'date and computer name' myDaemon[8927]: First daemon finished and terminated.
+    output on terminal when typing pstree| grep myDaemon /var/log/syslog is:
+    'date and computer name' myDaemon['Deamon pid']: First daemon started.
+    'date and computer name' myDaemon['Deamon pid']: First daemon is working.
+    'date and computer name' myDaemon['Deamon pid']: First daemon finished and terminated.
 */
 int main(){
     pid_t pid;

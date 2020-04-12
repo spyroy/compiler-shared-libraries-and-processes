@@ -37,5 +37,6 @@ int main(){
         wait(NULL);
         printf("this is parent, child completed \n");
     }
+	usleep(3000000);
     return 0;
 }

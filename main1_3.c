@@ -3,15 +3,15 @@
 #include <dlfcn.h>
 #include <stddef.h>
 
-void(*messege)(const char*);
+void(*message)(const char*);
 
 bool init_lib(){
     void *hdl = dlopen("./libhello_Ariel.so", RTLD_LAZY);
     if(hdl == NULL){
         return false;
     }
-    messege = (void(*)(const char *))dlsym(hdl,"my_print");
-    if(messege == NULL){
+    message = (void(*)(const char *))dlsym(hdl,"my_print");
+    if(message == NULL){
         return false;
     }
     return true;
@@ -19,7 +19,7 @@ bool init_lib(){
 
 int main(){
     if(init_lib()){
-        messege("Ariel");
+        message("Ariel");
     }
     else{
         printf("library was not loaded\n");
