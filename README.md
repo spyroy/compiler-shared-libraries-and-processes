@@ -75,6 +75,6 @@ output on terminal in main2_4 is all the programs above including process tree a
 ![image](https://github.com/spyroy/OS_task1/blob/master/photos/Screenshot%20from%202020-04-10%2016-30-33.png)
 
 OS_task1
-operating system assignment
+operating system assignment 
 
 
